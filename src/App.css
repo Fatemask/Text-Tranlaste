@@ -1,38 +1,39 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+
+.app-header{
+  text-align: center;
+  padding: 20px;
+}
+
+.header{
+  font-family: 'Azeret Mono', monospace;
+  font-size: 30px;
+}
+
+.app-body{
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.language-select{
+  height: 50px !important;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  outline: none !important;
+  width: 357px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+textarea{
+  width: 350px;
+  height: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button{
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  background-color: palevioletred;
+  border: none;
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
